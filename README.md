@@ -12,7 +12,7 @@ Dockerimage to move svn trunk to git repo with history and propper authors
 ## How to proceed:
 
 - create a test repo
-- run docker run -it pwilms/git-svn migrate.sh
+- run docker run -it pwilms/git-svn migrate
 - the script guides you through the following steps:
 
 1. enter new git repo url (ssh)
